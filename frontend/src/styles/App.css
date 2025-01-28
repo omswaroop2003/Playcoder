@@ -1,0 +1,17 @@
+/* src/styles/App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.editor-container, .preview-container {
+  flex: 1;
+  margin: 10px;
+}
+
+.package-manager {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
